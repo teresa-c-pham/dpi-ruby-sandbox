@@ -11,6 +11,6 @@ class TestCalculator < Minitest::Test
 
   def test_sub
     calculator = Calculator.new
-    assert_equal 4, calculator.add(2, 2), "Addition method failed"
+    assert_equal 4, calculator.subtract(2, 2), "Addition method failed"
   end
 end
